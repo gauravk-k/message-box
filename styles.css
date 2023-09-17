@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: rgb(183, 114, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1{
+    height: 200px;
+    width: 380px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 4%;
+    padding: 2%;
+}
+
+#in1{
+    height: 40px;
+    width: 300px;
+    margin: 2%;
+}
+#btn{
+    cursor: pointer;
+}
+#p1{
+    height: 40px;
+    width: 300px;
+    margin: 2%;
+    background-color: thistle;
+}
